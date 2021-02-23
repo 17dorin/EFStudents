@@ -1,0 +1,9 @@
+﻿@model List<Student>
+
+@foreach(Student s in Model)
+{
+    <h2>@s.Name</h2>
+    <p>Hometown: @s.Hometown</p>
+    <p>Favorite Food: @s.FavoriteFood</p>
+    <p>Favorite Color: @s.FavoriteColor</p>
+}
